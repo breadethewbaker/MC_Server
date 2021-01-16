@@ -1,0 +1,36 @@
+---- Minecraft Crash Report ----
+// Shall we play a game?
+
+Time: 1/4/21 8:32 PM
+Description: Exception in server tick loop
+
+java.net.UnknownHostException: -n 'server-ip=' 
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.net.InetAddress$2.lookupAllHostAddr(Unknown Source)
+	at java.net.InetAddress.getAddressesFromNameService(Unknown Source)
+	at java.net.InetAddress.getAllByName0(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at java.net.InetAddress.getByName(Unknown Source)
+	at zg.d(SourceFile:137)
+	at net.minecraft.server.MinecraftServer.w(SourceFile:645)
+	at net.minecraft.server.MinecraftServer.a(SourceFile:257)
+	at java.lang.Thread.run(Unknown Source)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.16.4
+	Minecraft Version ID: 1.16.4
+	Operating System: Windows 10 (x86) version 10.0
+	Java Version: 1.8.0_251, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) Client VM (mixed mode, sharing), Oracle Corporation
+	Memory: 53614120 bytes (51 MB) / 259522560 bytes (247 MB) up to 259522560 bytes (247 MB)
+	CPUs: 12
+	JVM Flags: 2 total; -Xmx256M -Xms256M
+	Data Packs: vanilla
+	Is Modded: Unknown (can't tell)
+	Type: Dedicated Server (map_server.txt)

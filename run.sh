@@ -10,6 +10,5 @@ echo -n $str >> ipAddress.txt
 grep -v 'server-ip' server.properties > server.propertiesTwo
 cat ipAddress.txt >> server.propertiesTwo
 cat server.propertiesTwo > server.properties
-
 rm server.propertiesTwo
-gnome-terminal -e 'java -Xmx256M -Xms256M -jar minecraft_server.1.11.2.jar nogui'
+#gnome-terminal -e 'java -Xmx256M -Xms256M -jar server_1_16_4.jar nogui'
