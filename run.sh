@@ -12,4 +12,6 @@ cat ipAddress.txt >> server.propertiesTwo
 cat server.propertiesTwo > server.properties
 
 rm server.propertiesTwo
-gnome-terminal -e 'java -Xmx256M -Xms256M -jar minecraft_server.1.11.2.jar nogui'
+
+java -Xmx256M -Xms256M -jar server.jar nogui
+#gnome-terminal -e 'java -Xmx256M -Xms256M -jar server.jar nogui'
