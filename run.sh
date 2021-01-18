@@ -1,17 +1,10 @@
 #!/bin/bash
-str=""
-
-#uncomment the line beneath this if you want to run an ipv6 server
-#str=$(curl ipv6.icanhazip.com)
-
- > ipAddress.txt
+> ipAddress.txt
 echo -n 'server-ip=' >> ipAddress.txt
-echo -n $str >> ipAddress.txt
+dig @resolver4.opendns.com myip.opendns.com +short >> ipAddress.txt
 grep -v 'server-ip' server.properties > server.propertiesTwo
 cat ipAddress.txt >> server.propertiesTwo
 cat server.propertiesTwo > server.properties
-
+java -Xmx1024M -Xms1024M -jar server.jar nogui
+cat server.propertiesTwo > server.properties
 rm server.propertiesTwo
-
-java -Xmx256M -Xms256M -jar server.jar nogui
-#gnome-terminal -e 'java -Xmx256M -Xms256M -jar server.jar nogui'
