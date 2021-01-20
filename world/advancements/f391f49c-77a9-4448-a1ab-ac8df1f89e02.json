@@ -257,6 +257,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/redstone_lamp": {
+    "criteria": {
+      "has_glowstone": "2021-01-17 00:44:17 -0500"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/stone_brick_slab_from_stone_stonecutting": {
     "criteria": {
       "has_stone": "2021-01-05 22:11:19 -0500"
@@ -707,6 +713,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/ender_eye": {
+    "criteria": {
+      "has_blaze_powder": "2021-01-17 02:37:32 -0500"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/netherite_scrap": {
     "criteria": {
       "has_ancient_debris": "2021-01-10 22:50:19 -0500"
@@ -908,6 +920,12 @@
   "minecraft:recipes/food/cooked_cod_from_campfire_cooking": {
     "criteria": {
       "has_cod": "2021-01-16 00:04:38 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coal_from_blasting": {
+    "criteria": {
+      "has_coal_ore": "2021-01-16 23:25:35 -0500"
     },
     "done": true
   },
@@ -1439,6 +1457,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/brewing/magma_cream": {
+    "criteria": {
+      "has_blaze_powder": "2021-01-17 02:37:32 -0500"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/stonecutter": {
     "criteria": {
       "has_stone": "2021-01-05 22:11:19 -0500"
@@ -1647,6 +1671,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/stripped_oak_wood": {
+    "criteria": {
+      "has_log": "2021-01-17 22:18:26 -0500"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/orange_stained_glass_pane_from_glass_pane": {
     "criteria": {
       "has_glass_pane": "2021-01-09 23:36:53 -0500"
@@ -1767,6 +1797,12 @@
   "minecraft:recipes/decorations/blue_banner": {
     "criteria": {
       "has_blue_wool": "2021-01-15 00:41:54 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/fire_charge": {
+    "criteria": {
+      "has_blaze_powder": "2021-01-17 02:37:32 -0500"
     },
     "done": true
   },
@@ -2057,14 +2093,18 @@
       "cooked_porkchop": "2021-01-05 20:52:32 -0500",
       "cooked_mutton": "2021-01-05 20:53:11 -0500",
       "cooked_beef": "2021-01-05 23:34:31 -0500",
+      "beef": "2021-01-17 01:34:55 -0500",
       "porkchop": "2021-01-05 20:42:16 -0500",
       "apple": "2021-01-05 21:51:44 -0500",
       "pumpkin_pie": "2021-01-13 20:38:09 -0500",
       "bread": "2021-01-10 01:17:24 -0500",
       "rotten_flesh": "2021-01-10 03:33:34 -0500",
+      "cookie": "2021-01-17 03:59:59 -0500",
+      "suspicious_stew": "2021-01-17 03:14:32 -0500",
       "melon_slice": "2021-01-12 22:53:38 -0500",
       "cooked_chicken": "2021-01-05 21:28:53 -0500",
       "mushroom_stew": "2021-01-12 19:09:51 -0500",
+      "rabbit_stew": "2021-01-16 23:26:23 -0500",
       "carrot": "2021-01-15 19:13:37 -0500"
     },
     "done": false
@@ -2263,6 +2303,7 @@
   },
   "minecraft:husbandry/bred_all_animals": {
     "criteria": {
+      "minecraft:pig": "2021-01-17 03:17:02 -0500",
       "minecraft:sheep": "2021-01-07 22:04:59 -0500",
       "minecraft:cow": "2021-01-12 19:29:59 -0500",
       "minecraft:chicken": "2021-01-13 00:15:44 -0500"
@@ -2887,6 +2928,12 @@
     },
     "done": true
   },
+  "minecraft:story/cure_zombie_villager": {
+    "criteria": {
+      "cured_zombie": "2021-01-17 18:33:48 -0500"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/light_weighted_pressure_plate": {
     "criteria": {
       "has_gold_ingot": "2021-01-05 21:28:19 -0500"
@@ -2929,6 +2976,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/conduit": {
+    "criteria": {
+      "has_nautilus_shell": "2021-01-16 20:35:29 -0500"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/netherite_axe_smithing": {
     "criteria": {
       "has_netherite_ingot": "2021-01-10 22:51:46 -0500"
@@ -2938,6 +2991,12 @@
   "minecraft:recipes/building_blocks/spruce_slab": {
     "criteria": {
       "has_planks": "2021-01-15 23:20:20 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coal_from_smelting": {
+    "criteria": {
+      "has_coal_ore": "2021-01-16 23:25:35 -0500"
     },
     "done": true
   },
