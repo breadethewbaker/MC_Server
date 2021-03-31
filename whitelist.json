@@ -6,5 +6,9 @@
   {
     "uuid": "871ce0c2-73a8-454b-89f2-1611b8fe49d7",
     "name": "bread_baker"
+  },
+  {
+    "uuid": "5bbdd03d-271a-41b9-adfd-3e0a8299a117",
+    "name": "AnotherVessel"
   }
 ]
